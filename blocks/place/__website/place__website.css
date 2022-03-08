@@ -1,5 +1,21 @@
 .place__website {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    align-self: end;
+  grid-column-start: 2;
+  grid-row-start: 1;
+  align-self: end;
+}
+@media (max-width: 767px) {
+  .place__website {
+    max-width: 288px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: 32px 16px 0;
+  }
+}
+@media (max-width: 320px) {
+  .place__website {
+    max-width: 288px;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    margin: 32px 16px 0;
+  }
 }
