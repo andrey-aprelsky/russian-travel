@@ -30,14 +30,3 @@
     margin: 50px 12px 0;
   }
 }
-
-@media (max-width: 320px) {
-  .place__title {
-    max-width: 288px;
-    grid-row-start: 1;
-    font-size: 32px;
-    line-height: 109%;
-    align-self: none;
-    margin: 50px 12px 0;
-  }
-}
