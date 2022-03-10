@@ -12,6 +12,11 @@
   color: #fff;
   align-self: baseline;
 }
+@media (min-width: 2560px) {
+  .lead__caption {
+    margin-left: 150px;
+  }
+}
 @media (max-width: 768px) {
   .lead__caption {
     margin-left: 24px;
